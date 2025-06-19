@@ -1,0 +1,495 @@
+{
+  "common": {
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır",
+    "close": "Kapat",
+    "edit": "Düzenle",
+    "next": "İleri",
+    "back": "Geri",
+    "previous": "Önceki",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "warning": "Uyarı",
+    "continue": "Devam Et",
+    "complete": "Tamamla",
+    "loading": "Yükleniyor...",
+    "finish": "Tamamla",
+    "or": "ya da",
+    "of": "of",
+    "search": "Ara",
+    "noSearchResults": "Arama sonucu bulunamadı",
+    "activeFilters": "Aktif Filtreler",
+    "clearAll": "Tümünü Temizle",
+    "languageCodes": {
+      "English": "İngilizce",
+      "Spanish": "İspanyolca",
+      "Turkish": "Türkçe"
+    },
+    "errors": {
+      "inappropriateContent": "İçerik eğitim amaçları için uygunsuz materyal içeriyor. Lütfen girişinizi gözden geçirin.",
+      "contentValidationFailed": "İçerik şu anda doğrulanamıyor. Lütfen daha sonra tekrar deneyin.",
+      "generalError": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "signup": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "username": "Kullanıcı Adı",
+    "createAccount": "Hesap Oluştur",
+    "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+    "dontHaveAccount": "Henüz hesabınız yok mu?",
+    "enterEmail": "E-posta adresinizi girin",
+    "enterPassword": "Şifrenizi girin",
+    "continueWithGoogle": "Google ile devam et",
+    "emailError": "Lütfen geçerli bir e-posta adresi girin",
+    "emailRequired": "Lütfen bir e-posta adresi girin",
+    "passwordRequired": "Lütfen şifrenizi girin",
+    "loginContinue": "Giriş yap ve öğrenmeye devam et",
+    "signupContinue": "Kayıt ol ve öğrenmeye başla",
+    "terms": "Katılarak, Şartları ve Gizlilik Politikasını okuduğumu ve kabul ettiğimi beyan ederim",
+    "createUsername": {
+      "title": "Kullanıcı adınızı oluşturun",
+      "label": "Kullanıcı Adı",
+      "placeholder": "Kullanıcı adınızı girin",
+      "error": "Lütfen bir kullanıcı adı girin",
+      "description": "Diğer kullanıcılara gösterilecek benzersiz bir kullanıcı adı oluşturun"
+    },
+    "createPassword": {
+      "title": "Şifrenizi oluşturun",
+      "label": "Şifre",
+      "placeholder": "Şifrenizi girin",
+      "error": "Lütfen bir şifre girin",
+      "loading": "Yükleniyor...",
+      "requirements": {
+        "base": "Şifreniz şunları içermelidir:",
+        "length": "en az 8 karakter",
+        "uppercase": "en az bir büyük harf",
+        "lowercase": "en az bir küçük harf",
+        "number": "en az bir rakam",
+        "special": "en az bir özel karakter",
+        "full": "Şifreniz en az 8 karakter, 1 büyük harf, 1 küçük harf, 1 rakam ve 1 özel karakter içermelidir."
+      },
+      "registrationFailed": "Kayıt başarısız oldu. Lütfen tekrar deneyin.",
+      "registrationError": "Kayıt sırasında bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "userKnowledge": {
+    "question": "{{language}} dilini biliyor musunuz?",
+    "dontKnow": "{{language}} dilini bilmiyorum",
+    "knowSome": "Biraz {{language}} biliyorum",
+    "authRequired": "Kimlik doğrulama gerekli. Lütfen tekrar giriş yapın.",
+    "sessionExpired": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
+    "updateError": "Seviye tercihi güncellenirken hata oluştu.",
+    "generalError": "Bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "userLevel": {
+    "title": "Seviyenizi biliyor musunuz?",
+    "selectLevel": "Seviyenizi seçin",
+    "selectBeginner": "Başlangıç seviyesi olarak seçin",
+    "updateError": "Seviyeniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin.",
+    "updateErrorTitle": "Güncelleme Hatası",
+    "levels": {
+      "a1": "A1 - Başlangıç",
+      "a2": "A2 - Temel",
+      "b1": "B1 - Orta",
+      "b2": "B2 - Üst Orta",
+      "c1": "C1 - İleri"
+    }
+  },
+  "userPurpose": {
+    "title": "Neden {{language}} öğreniyorsun?",
+    "customTitle": "Amacını istediğin gibi açıkla",
+    "purposes": {
+      "generalKnowledge": "Genel Bilgi",
+      "science": "Bilim & Eğitim",
+      "arts": "Sanat & Tasarım",
+      "history": "Tarih & Kültür",
+      "cooking": "Yemek & Mutfak",
+      "business": "İş & Ekonomi",
+      "news": "Haberler & Güncel Olaylar",
+      "health": "Tıp & Sağlık",
+      "travel": "Seyahat & Turizm",
+      "music": "Müzik & Eğlence",
+      "sports": "Spor & Fitness",
+      "technology": "Teknoloji & Bilgisayar",
+      "philosophy": "Felsefe & Din",
+      "environment": "Çevre & Doğa",
+      "literature": "Edebiyat & Okuma",
+      "socialMedia": "Sosyal Medya & İletişim"
+    },
+    "customPlaceholder": "İngilizce öğrenmek istiyorum çünkü gelecek yıl Amerika'ya seyahat etmeyi planlıyorum ve yerel halkla iletişim kurabilmek istiyorum.",
+    "info": "Öğrenme amacını istediğin zaman ayarlar menüsünden değiştirebilirsin.",
+    "confirm": "Onayla",
+    "errors": {
+      "authRequired": "Kimlik doğrulama gerekli",
+      "updateFailed": "Öğrenme amacı güncellenirken hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "start": {
+    "title": "Hazırsın!",
+    "subtitle": "Hadi öğrenmeye başlayalım!",
+    "button": "Başla"
+  },
+  "chooseLanguage": {
+    "title": "Öğrenmek istediğiniz dili seçin",
+    "languages": {
+      "english": "İngilizce",
+      "spanish": "İspanyolca",
+      "turkish": "Türkçe"
+    },
+    "errors": {
+      "authRequired": "Kimlik doğrulama gerekli. Lütfen tekrar giriş yapın.",
+      "sessionExpired": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
+      "updateFailed": "Dil tercihi güncellenirken hata oluştu.",
+      "generalError": "Bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "home": {
+    "title": "Ana Sayfa",
+    "todaysExercise": "Bugünün Egzersizi",
+    "weeklyGoalAndLeaderboard": "Haftalık Hedef ve Sıralama",
+    "weeklyProgress": "Haftalık İlerleme",
+    "modules": {
+      "pyramid": "Piramit",
+      "vocabulary": "Kelime",
+      "writing": "Yazma",
+      "email": "E-posta"
+    }
+  },
+  "modules": {
+    "pyramid": {
+      "title": "Piramit",
+      "stats": {
+        "time": "Süre",
+        "sentences": "Cümle",
+        "successRate": "Başarı Oranı"
+      },
+      "loading": "Cümle oluşturuluyor...",
+      "creatingOptions": "Seçenekler oluşturuluyor...",
+      "previewReady": "Devam etmeye hazır",
+      "errors": {
+        "createFailed": "Piramit oluşturulamadı. Lütfen tekrar deneyin.",
+        "loginRequired": "Devam etmek için lütfen giriş yapın",
+        "loadingFailed": "Veri yüklenemedi"
+      },
+      "savedSentences": "Kayıtlı cümleleriniz",
+      "noSavedSentences": "Henüz kayıtlı cümleniz yok",
+      "noPyramids": "Henüz piramit oluşturmadınız",
+      "createFirstPyramid": "İlk piramidinizi oluşturun!",
+      "filterByType": "Türe göre filtrele",
+      "originalSentence": "Orijinal cümle",
+      "createTitle": "Haydi bir piramit oluşturalım!",
+      "createWithAI": "Yapay zeka ilk cümleyi oluştursun",
+      "enterSentence": "İlk cümleyi girin",
+      "types": {
+        "expand": "genişlet",
+        "replace": "değiştir",
+        "shrink": "küçült",
+        "paraphrase": "yeniden yaz"
+      },
+      "buttons": {
+        "statistics": "İstatistikler",
+        "sentences": "Cümleler",
+        "delete": "Sil"
+      },
+      "delete": {
+        "title": "Piramidi Sil",
+        "message": "Bu piramidi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "quit": {
+        "title": "Piramidi Bırak",
+        "message": "Bu piramit oturumundan çıkmak istediğinizden emin misiniz? İlerlemeniz kaybolacak.",
+        "confirm": "Çık"
+      },
+      "result": {
+        "congratulations": "Tebrikler!",
+        "description": "Piramit alıştırmasını tamamladınız",
+        "backToModules": "Ana sayfaya dön"
+      }
+    },
+    "vocabulary": {
+      "title": "Kelime",
+      "stats": {
+        "time": "Süre",
+        "vocabularies": "Kelimeler",
+        "successRate": "Başarı Oranı"
+      },
+      "tabs": {
+        "popular": "Popüler Listeler",
+        "your": "Listelerin"
+      },
+      "saved": "Kayıtlı kelimelerin",
+      "savedVocabularies": "Kaydedilen Kelimeler",
+      "noSavedVocabularies": "Henüz kaydedilmiş kelime bulunmamaktadır",
+      "noPopularVocabularies": "Popüler kelime listeleri mevcut değil",
+      "noPopularVocabulariesSubtext": "Popüler listeler dil ayarlarınızla eşleştiğinde burada görünecektir",
+      "noYourVocabularies": "Henüz kelime listeniz bulunmamaktadır",
+      "noYourVocabulariesSubtext": "Başlamak için ilk kelime listenizi oluşturun!",
+      "relevantWords": "İlgili Kelimeler",
+      "buttons": {
+        "rework": "Yeniden Çalış",
+        "delete": "Sil",
+        "statistics": "İstatistikler"
+      },
+      "delete": {
+        "title": "Kelime Listesini Sil",
+        "message": "Bu kelime listesini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "quit": {
+        "title": "Quiz'den Çık",
+        "message": "Bu kelime quiz'inden çıkmak istediğinizden emin misiniz? İlerlemeniz kaybolacak.",
+        "confirm": "Çık"
+      },
+      "create": {
+        "title": "Haydi kelime listesi oluşturalım",
+        "aiCreate": "Yapay zeka kelime listesini oluştursun",
+        "chooseLevel": "Seviyeyi kendin seç",
+        "levels": {
+          "a1": "A1 - Başlangıç",
+          "a2": "A2 - Temel",
+          "b1": "B1 - Orta",
+          "b2": "B2 - Üst Orta",
+          "c1": "C1 - İleri",
+          "c2": "C2 - Uzman"
+        }
+      },
+      "quiz": {
+        "creating": "Kelime listeniz oluşturuluyor...",
+        "creatingRework": "Kelime listeniz yeniden oluşturuluyor...",
+        "completed": "Yükleme tamamlandı!",
+        "error": "Kelime listesi yüklenirken hata oluştu:",
+        "question": {
+          "noRelevantWords": "Tüm ilgili kelimeler gösterildi!",
+          "noMoreLetters": "Tüm harfler zaten açıldı!",
+          "wrongAnswer": "Yanlış cevap! Tekrar deneyin.",
+          "buttons": {
+            "getRelevant": "İpucu",
+            "openLetter": "Harf",
+            "getEmoji": "Emoji",
+            "complete": "Tamamla",
+            "continue": "Devam Et"
+          }
+        },
+        "exitWarning": "Çıkmak istediğinizden emin misiniz? Bu quizde kazandığınız tüm ilerleme ve XP'yi kaybedeceksiniz.",
+        "result": {
+          "title": "Quiz Sonucu",
+          "completed": "Quiz tamamlandı!",
+          "button": "Ana Sayfaya Dön"
+        }
+      }
+    },
+    "writing": {
+      "title": "Yazma",
+      "suggested": "Önerilen soru ile devam et:",
+      "levels": "Seviyeler",
+      "scenario": "Senaryo",
+      "scenarios": "Senaryolar",
+      "beginner": "Başlangıç",
+      "elementary": "Temel",
+      "intermediate": "Orta",
+      "advanced": "İleri",
+      "writeAnswer": "Cevabınızı buraya yazın...",
+      "writeAnswerForScenario": "{{scenario}} numaralı senaryo için cevabınızı yazın...",
+      "submit": "Gönder",
+      "submitting": "Gönderiliyor...",
+      "previous": "Önceki",
+      "evaluationTitle": "Cevap Değerlendirmesi",
+      "yourAnswer": "Cevabınız",
+      "noAnswer": "Cevap Yok",
+      "feedback": "Geri Bildirim",
+      "unsavedChanges": "Kaydedilmemiş Değişiklikler",
+      "unsavedChangesMessage": "Kaydedilmemiş değişiklikleriniz var. Çıkmak istediğinizden emin misiniz?",
+      "discardChanges": "Değişiklikleri Yok Say",
+      "emptyAnswer": "Boş Cevap",
+      "emptyAnswerMessage": "Lütfen göndermeden önce bir cevap yazın.",
+      "evaluationError": "Değerlendirme Hatası",
+      "evaluationErrorGeneric": "Yazınız değerlendirilemedi. Lütfen tekrar deneyin.",
+      "allQuestionsCompleted": "Tüm sorular tamamlandı!",
+      "questions": {
+        "remainedQuestions": "{{total}} sorudan {{solved}} soru cevaplandı",
+        "beginnerQuestions": "Başlangıç Sorular",
+        "elementaryQuestions": "Temel Sorular",
+        "intermediateQuestions": "Orta Sorular",
+        "advancedQuestions": "İleri Sorular",
+        "noQuestions": "Bu seviye için henüz soru bulunmuyor"
+      },
+      "evaluation": {
+        "loadingEvaluation": "Değerlendirme yükleniyor...",
+        "evaluationSubtitleAuth": "Cevaplarınızı ve geri bildirimlerinizi inceleyin",
+        "evaluationSubtitleGuest": "Cevaplarınızı ve geri bildirimlerinizi inceleyin (Misafir modu)",
+        "overallScore": "Genel Puan",
+        "detailedScores": "Detaylı Puanlar",
+        "content": "İçerik",
+        "organization": "Organizasyon",
+        "language": "Dil",
+        "totalScore": "Toplam Puan",
+        "specificFeedback": "Özel Geri Bildirim",
+        "suggestion": "Öneri",
+        "xpEarned": "Kazanılan XP",
+        "xpFromEventSystem": "Etkinlik sisteminden deneyim puanları",
+        "whereToGo": "Sonra nereye gidelim?",
+        "chooseNextAction": "Sonraki eyleminizi seçin",
+        "writeAnother": "Başka Yaz",
+        "viewHistory": "Geçmişi görüntüle",
+        "backToWriting": "Yazmaya Dön",
+        "error": "Hata",
+        "errorParsingResults": "Değerlendirme sonuçları ayrıştırılamadı",
+        "feedbackTypes": {
+          "Spelling": "İmla",
+          "Grammar": "Dilbilgisi",
+          "Punctuation": "Noktalama",
+          "Style": "Stil"
+        }
+      }
+    },
+    "email": {
+      "title": "E-posta",
+      "headers": {
+        "inbox": "Gelen Kutusu",
+        "sent": "Gönderilen",
+        "draft": "Taslak"
+      },
+      "comingSoon": {
+        "title": "Çok yakında...",
+        "description": "Güncellemeler için takipte kalın!"
+      }
+    }
+  },
+  "errors": {
+    "loginRequired": "Kaydedilen kelimeleri görmek için giriş yapmanız gerekiyor",
+    "failedToLoadVocabularies": "Kaydedilen kelimeler yüklenemedi",
+    "failedToRemoveVocabulary": "Kelime kaldırılamadı",
+    "failedToDeletePyramid": "Piramid silinemedi. Lütfen tekrar deneyin."
+  },
+  "userProfile": {
+    "level": "Seviye",
+    "progress": "İlerleme",
+    "stats": "İstatistikler",
+    "achievements": "Başarılar"
+  },
+  "leaderboard": {
+    "you": "Sen"
+  },
+  "progress": {
+    "remained": "kaldı",
+    "weekDays": {
+      "mon": "Pzt",
+      "tue": "Sal",
+      "wed": "Çar",
+      "thu": "Per",
+      "fri": "Cum",
+      "sat": "Cmt",
+      "sun": "Paz"
+    },
+    "noData": {
+      "title": "İlerleme Verisi Yok",
+      "subtitle": "Haftalık ilerlemenizi burada görmek için öğrenmeye başlayın!"
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "theme": "Tema",
+    "notifications": "Bildirimler",
+    "sound": "Ses",
+    "account": "Hesap",
+    "support": "Destek",
+    "items": {
+      "preferences": "Tercihler",
+      "profile": "Profil",
+      "notifications": "Bildirimler",
+      "helpCenter": "Yardım Merkezi",
+      "feedback": "Geri Bildirim",
+      "logout": "Çıkış Yap"
+    },
+    "version": "Sürüm"
+  },
+  "logout": {
+    "confirmTitle": "Çıkış Onayı",
+    "confirmMessage": "Hesabınızdan çıkış yapmak istediğinizden emin misiniz?",
+    "confirmButton": "Çıkış Yap",
+    "cancelButton": "İptal"
+  },
+  "preferences": {
+    "title": "Tercihler",
+    "vibrationFeedback": "Titreşim geri bildirimi",
+    "soundEffects": "Ses Efektleri",
+    "darkTheme": "Koyu Tema",
+    "interfaceLanguage": "Arayüz Dili"
+  },
+  "profile": {
+    "title": "Profil",
+    "name": "Ad",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "email": "E-posta",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "updateSuccess": {
+      "title": "Başarılı",
+      "message": "Profiliniz başarıyla güncellendi"
+    },
+    "deleteAccount": {
+      "button": "Hesabımı Sil",
+      "title": "Hesap Silme",
+      "confirmMessage": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "confirm": "Sil",
+      "error": "Hata",
+      "errorNoId": "Kullanıcı ID bulunamadı. Lütfen tekrar deneyin.",
+      "errorMessage": "Hesap silinirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "success": "Başarılı",
+      "successMessage": "Hesabınız başarıyla silindi. Giriş sayfasına yönlendirileceksiniz."
+    },
+    "changePassword": {
+      "button": "Şifre Değiştir",
+      "title": "Şifre",
+      "oldPassword": "Eski Şifre",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Şifreyi Onayla",
+      "oldPasswordPlaceholder": "Eski şifrenizi girin",
+      "newPasswordPlaceholder": "Yeni şifrenizi girin",
+      "confirmPasswordPlaceholder": "Yeni şifrenizi tekrar girin",
+      "success": {
+        "title": "Başarılı",
+        "message": "Şifreniz başarıyla değiştirildi"
+      },
+      "error": {
+        "title": "Hata",
+        "oldPasswordIncorrect": "Eski şifre yanlış",
+        "passwordsDontMatch": "Yeni şifreler eşleşmiyor",
+        "requirements": "Şifreniz şunları içermelidir: ",
+        "default": "Bir hata oluştu. Lütfen tekrar deneyin.",
+        "userNotFound": "Kullanıcı bulunamadı. Lütfen tekrar giriş yapın.",
+        "sessionExpired": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın."
+      }
+    }
+  },
+  "notifications": {
+    "title": "Bildirimler",
+    "announcements": "Duyurular",
+    "reminders": "Hatırlatıcılar"
+  },
+  "help": {
+    "title": "Yardım Merkezi",
+    "comingSoon": "Çok yakında..."
+  },
+  "feedback": {
+    "title": "Geri Bildirim",
+    "comingSoon": "Çok yakında..."
+  },
+  "offline": {
+    "title": "İnternet bağlantısı Yok",
+    "description": "İnternet bağlantınızı kontrol edip tekrar deneyiniz.",
+    "retryButton": "Tekrar Dene"
+  },
+  "languageSelection": {
+    "chooseLanguage": "Dili Seçin"
+  },
+  "welcome": {
+    "title": "En iyi dil öğrenme asistanınız",
+    "startLearning": "Öğrenmeye Başla"
+  }
+}

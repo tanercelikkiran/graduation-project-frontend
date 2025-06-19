@@ -1,0 +1,502 @@
+{
+  "common": {
+    "ok": "OK",
+    "yes": "Sí",
+    "no": "No",
+    "close": "Cerrar",
+    "edit": "Editar",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "previous": "Anterior",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "warning": "Advertencia",
+    "continue": "Continuar",
+    "complete": "Completar",
+    "loading": "Cargando...",
+    "finish": "Finalizar",
+    "or": "o",
+    "of": "de",
+    "search": "Buscar",
+    "noSearchResults": "No se encontraron resultados",
+    "activeFilters": "Filtros Activos",
+    "clearAll": "Borrar Todo",
+    "languageCodes": {
+      "English": "Inglés",
+      "Spanish": "Español",
+      "Turkish": "Turco"
+    },
+    "errors": {
+      "inappropriateContent": "El contenido contiene material inapropiado para fines educativos. Por favor, revise su entrada.",
+      "contentValidationFailed": "No se puede validar el contenido en este momento. Inténtelo de nuevo más tarde.",
+      "generalError": "Ocurrió un error inesperado. Inténtelo de nuevo."
+    }
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "username": "Nombre de usuario",
+    "createAccount": "Crear Cuenta",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "dontHaveAccount": "¿No tienes una cuenta?",
+    "enterEmail": "Ingresa tu correo electrónico",
+    "enterPassword": "Ingresa tu contraseña",
+    "continueWithGoogle": "Continuar con Google",
+    "emailError": "Por favor ingresa un correo electrónico válido",
+    "emailRequired": "Por favor ingresa un correo electrónico",
+    "passwordRequired": "Por favor ingresa tu contraseña",
+    "loginContinue": "Inicia sesión y continúa aprendiendo",
+    "signupContinue": "Regístrate y comienza a aprender",
+    "terms": "Al unirme, declaro que he leído y acepto los Términos y la Política de Privacidad",
+    "createUsername": {
+      "title": "Crea tu nombre de usuario",
+      "label": "Nombre de usuario",
+      "placeholder": "Ingresa tu nombre de usuario",
+      "error": "Por favor ingresa un nombre de usuario",
+      "description": "Crea un nombre de usuario único que se mostrará a otros usuarios"
+    },
+    "createPassword": {
+      "title": "Crea tu contraseña",
+      "label": "Contraseña",
+      "placeholder": "Ingresa tu contraseña",
+      "error": "Por favor ingresa una contraseña",
+      "loading": "Cargando...",
+      "requirements": {
+        "base": "Tu contraseña debe contener:",
+        "length": "al menos 8 caracteres",
+        "uppercase": "al menos una letra mayúscula",
+        "lowercase": "al menos una letra minúscula",
+        "number": "al menos un número",
+        "special": "al menos un carácter especial",
+        "full": "Tu contraseña debe contener al menos 8 caracteres, 1 mayúscula, 1 minúscula, 1 número y 1 carácter especial."
+      },
+      "registrationFailed": "Registro fallido. Por favor intenta de nuevo.",
+      "registrationError": "Ocurrió un error durante el registro. Por favor intenta de nuevo."
+    }
+  },
+  "userKnowledge": {
+    "question": "¿Sabes {{language}}?",
+    "dontKnow": "No sé {{language}}",
+    "knowSome": "Sé algo de {{language}}",
+    "authRequired": "Autenticación requerida. Por favor, inicia sesión de nuevo.",
+    "sessionExpired": "Tu sesión ha expirado. Por favor, inicia sesión de nuevo.",
+    "updateError": "No se pudo actualizar la preferencia de nivel.",
+    "generalError": "Ocurrió un error. Por favor, inténtalo de nuevo."
+  },
+  "userLevel": {
+    "title": "¿Ya sabes tu nivel?",
+    "selectLevel": "Selecciona tu nivel",
+    "selectBeginner": "Seleccionar como principiante",
+    "updateError": "Ocurrió un error al actualizar tu nivel. Por favor, inténtalo de nuevo.",
+    "updateErrorTitle": "Error de Actualización",
+    "levels": {
+      "a1": "A1 - Principiante",
+      "a2": "A2 - Básico",
+      "b1": "B1 - Intermedio",
+      "b2": "B2 - Intermedio alto",
+      "c1": "C1 - Avanzado"
+    }
+  },
+  "userPurpose": {
+    "title": "¿Por qué estás estudiando {{language}}?",
+    "customTitle": "Describe tu propósito como desees",
+    "purposes": {
+      "generalKnowledge": "Conocimiento General",
+      "science": "Ciencia & Tecnología",
+      "arts": "Artes & Cultura",
+      "history": "Historia & Geografía",
+      "cooking": "Cocina & Gastronomía",
+      "business": "Negocios & Finanzas",
+      "news": "Noticias & Actualidad",
+      "health": "Salud & Bienestar",
+      "travel": "Viajes & Turismo",
+      "music": "úsica & Entretenimiento",
+      "sports": "Deportes & Fitness",
+      "technology": "Tecnología & Computación",
+      "philosophy": "Filosofía & Religión",
+      "environment": "Medio Ambiente & Naturaleza",
+      "literature": "Literatura & Lectura",
+      "socialMedia": "Redes Sociales & Comunicación"
+    },
+    "customPlaceholder": "Quiero aprender inglés porque planeo viajar a Estados Unidos el próximo año y quiero poder comunicarme con la gente local.",
+    "info": "Puedes cambiar tu propósito en cualquier momento desde el menú de configuración.",
+    "confirm": "Confirmar",
+    "errors": {
+      "authRequired": "Autenticación requerida",
+      "updateFailed": "Error al actualizar el propósito de aprendizaje. Por favor, inténtalo de nuevo."
+    }
+  },
+  "start": {
+    "title": "¡Todo listo!",
+    "subtitle": "¡Comencemos a estudiar!",
+    "button": "Empezar"
+  },
+  "chooseLanguage": {
+    "title": "Elige el idioma que quieres aprender",
+    "languages": {
+      "english": "Inglés",
+      "spanish": "Español",
+      "turkish": "Turco"
+    },
+    "errors": {
+      "authRequired": "Autenticación requerida. Por favor, inicia sesión de nuevo.",
+      "sessionExpired": "Tu sesión ha expirado. Por favor, inicia sesión de nuevo.",
+      "updateFailed": "Error al actualizar la preferencia de idioma.",
+      "generalError": "Ocurrió un error. Por favor, inténtalo de nuevo."
+    }
+  },
+  "home": {
+    "title": "Inicio",
+    "todaysExercise": "Ejercicio del Día",
+    "weeklyGoalAndLeaderboard": "Objetivo Semanal y Clasificación",
+    "weeklyProgress": "Progreso Semanal",
+    "modules": {
+      "pyramid": "Pirámide",
+      "vocabulary": "Vocabulario",
+      "writing": "Escritura",
+      "email": "Correo"
+    }
+  },
+  "modules": {
+    "pyramid": {
+      "title": "Pirámide",
+      "stats": {
+        "totalWords": "Total de Palabras",
+        "learningWords": "Palabras Aprendiendo",
+        "masteredWords": "Palabras Dominadas",
+        "time": "Tiempo",
+        "sentences": "Oraciones",
+        "successRate": "Tasa de Éxito"
+      },
+      "loading": "Creando la oración...",
+      "creatingOptions": "Generando opciones...",
+      "previewReady": "Listo para continuar",
+      "errors": {
+        "createFailed": "Error al crear la pirámide. Por favor, inténtalo de nuevo.",
+        "loginRequired": "Por favor, inicia sesión para continuar",
+        "loadingFailed": "Error al cargar los datos"
+      },
+      "savedSentences": "Tus oraciones guardadas",
+      "noSavedSentences": "Aún no tienes oraciones guardadas",
+      "noPyramids": "Aún no tienes pirámides",
+      "createFirstPyramid": "¡Crea tu primera pirámide para comenzar!",
+      "filterByType": "Filtrar por tipo",
+      "originalSentence": "Oración original",
+      "createTitle": "¡Vamos a crear una pirámide!",
+      "createWithAI": "Deja que la IA cree la primera oración",
+      "enterSentence": "Ingresa la primera oración",
+      "types": {
+        "expand": "expandir",
+        "replace": "reemplazar",
+        "shrink": "reducir",
+        "paraphrase": "parafrasear"
+      },
+      "buttons": {
+        "statistics": "Estadísticas",
+        "sentences": "Oraciones",
+        "delete": "Eliminar"
+      },
+      "delete": {
+        "title": "Eliminar Pirámide",
+        "message": "¿Estás seguro de que quieres eliminar esta pirámide? Esta acción no se puede deshacer."
+      },
+      "quit": {
+        "title": "Salir de la Pirámide",
+        "message": "¿Estás seguro de que quieres salir de esta sesión de pirámide? Se perderá tu progreso.",
+        "confirm": "Salir"
+      },
+      "result": {
+        "congratulations": "¡Felicidades!",
+        "description": "Has completado el ejercicio de pirámide",
+        "backToModules": "Volver a la página principal"
+      }
+    },
+    "vocabulary": {
+      "title": "Vocabulario",
+      "stats": {
+        "totalWords": "Total de Palabras",
+        "newWords": "Palabras Nuevas",
+        "reviewWords": "Para Repasar",
+        "time": "Tiempo",
+        "vocabularies": "Vocabularios",
+        "successRate": "Tasa de Éxito"
+      },
+      "tabs": {
+        "popular": "Listas Populares",
+        "your": "Tus Listas"
+      },
+      "saved": "Tus vocabularios guardados",
+      "savedVocabularies": "Vocabularios guardados",
+      "noSavedVocabularies": "Aún no tienes vocabularios guardados",
+      "noPopularVocabularies": "No hay listas de vocabulario populares disponibles",
+      "noPopularVocabulariesSubtext": "Las listas populares aparecerán aquí cuando coincidan con tu configuración de idioma",
+      "noYourVocabularies": "Aún no tienes listas de vocabulario",
+      "noYourVocabulariesSubtext": "¡Crea tu primera lista de vocabulario para comenzar!",
+      "relevantWords": "Palabras Relacionadas",
+      "buttons": {
+        "rework": "Rehacer",
+        "delete": "Eliminar",
+        "statistics": "Estadísticas"
+      },
+      "delete": {
+        "title": "Eliminar Lista de Vocabulario",
+        "message": "¿Estás seguro de que quieres eliminar esta lista de vocabulario? Esta acción no se puede deshacer."
+      },
+      "quit": {
+        "title": "Salir del Quiz",
+        "message": "¿Estás seguro de que quieres salir de este quiz de vocabulario? Se perderá tu progreso.",
+        "confirm": "Salir"
+      },
+      "create": {
+        "title": "¡Vamos a crear vocabulario!",
+        "aiCreate": "Dejar que la IA cree la lista de vocabulario",
+        "chooseLevel": "Elige el nivel tú mismo",
+        "levels": {
+          "a1": "A1 - Principiante",
+          "a2": "A2 - Elemental",
+          "b1": "B1 - Intermedio",
+          "b2": "B2 - Intermedio alto",
+          "c1": "C1 - Avanzado",
+          "c2": "C2 - Competente"
+        }
+      },
+      "quiz": {
+        "creating": "Creando tu lista de vocabulario...",
+        "creatingRework": "Rehaciendo tu lista de vocabulario...",
+        "completed": "¡Carga completada!",
+        "error": "Error al cargar la lista de palabras:",
+        "question": {
+          "noRelevantWords": "¡Se han mostrado todas las palabras relevantes!",
+          "noMoreLetters": "¡Todas las letras ya están reveladas!",
+          "wrongAnswer": "¡Respuesta incorrecta! Inténtalo de nuevo.",
+          "buttons": {
+            "getRelevant": "Pista",
+            "openLetter": "Letra",
+            "getEmoji": "Emoji",
+            "complete": "Completar",
+            "continue": "Continuar"
+          }
+        },
+        "exitWarning": "¿Estás seguro de que quieres salir? Perderás todo el progreso y XP ganado en este quiz.",
+        "result": {
+          "title": "Resultado del Quiz",
+          "completed": "¡Quiz completado!",
+          "button": "Volver al Inicio"
+        }
+      }
+    },
+    "writing": {
+      "title": "Escritura",
+      "suggested": "Continúe con la pregunta sugerida:",
+      "levels": "Niveles",
+      "scenario": "Escenario",
+      "scenarios": "Escenarios",
+      "beginner": "Principiante",
+      "elementary": "Elemental",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado",
+      "writeAnswer": "Escriba su respuesta aquí...",
+      "writeAnswerForScenario": "Escriba su respuesta para el escenario {{scenario}}...",
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "previous": "Anterior",
+      "evaluationTitle": "Evaluación de Respuestas",
+      "yourAnswer": "Tu Respuesta",
+      "noAnswer": "No hay respuesta",
+      "feedback": "Retroalimentación",
+      "unsavedChanges": "Cambios no Guardados",
+      "unsavedChangesMessage": "Tiene cambios no guardados. ¿Está seguro de que desea salir?",
+      "discardChanges": "Descartar Cambios",
+      "emptyAnswer": "Respuesta Vacía",
+      "emptyAnswerMessage": "Por favor escriba una respuesta antes de enviar.",
+      "evaluationError": "Error de Evaluación",
+      "evaluationErrorGeneric": "Error al evaluar su escritura. Por favor intente de nuevo.",
+      "allQuestionsCompleted": "¡Todas las preguntas completadas!",
+      "questions": {
+        "remainedQuestions": "{{solved}} de {{total}} preguntas respondidas",
+        "beginnerQuestions": "Preguntas de Principiante",
+        "elementaryQuestions": "Preguntas Elementales",
+        "intermediateQuestions": "Preguntas Intermedias",
+        "advancedQuestions": "Preguntas Avanzadas",
+        "noQuestions": "No hay preguntas disponibles para este nivel todavía"
+      },
+      "evaluation": {
+        "loadingEvaluation": "Cargando evaluación...",
+        "evaluationTitleAuth": "Evaluación de tu escritura",
+        "evaluationSubtitleAuth": "Revisa tus respuestas y comentarios",
+        "evaluationSubtitleGuest": "Revisa tus respuestas y comentarios (Modo invitado)",
+        "overallScore": "Puntuación General",
+        "detailedScores": "Puntuaciones Detalladas",
+        "content": "Contenido",
+        "organization": "Organización",
+        "language": "Lenguaje",
+        "totalScore": "Puntuación Total",
+        "specificFeedback": "Retroalimentación Específica",
+        "suggestion": "Sugerencia",
+        "xpEarned": "XP Ganado",
+        "xpFromEventSystem": "Puntos de experiencia del sistema de eventos",
+        "whereToGo": "¿A dónde ir ahora?",
+        "chooseNextAction": "Elige tu próxima acción",
+        "writeAnother": "Escribir Otro",
+        "viewHistory": "Ver historial",
+        "backToWriting": "Volver a Escritura",
+        "error": "Error",
+        "errorParsingResults": "Error al analizar los resultados de evaluación",
+        "feedbackTypes": {
+          "Spelling": "Ortografía",
+          "Grammar": "Gramática",
+          "Punctuation": "Puntuación",
+          "Style": "Estilo"
+        }
+      }
+    },
+    "email": {
+      "title": "Correo",
+      "headers": {
+        "inbox": "Bandeja de Entrada",
+        "sent": "Enviados",
+        "draft": "Borrador"
+      },
+      "comingSoon": {
+        "title": "Próximamente...",
+        "description": "¡Mantente atento a las actualizaciones!"
+      }
+    }
+  },
+  "errors": {
+    "loginRequired": "Debes iniciar sesión para ver los vocabularios guardados",
+    "failedToLoadVocabularies": "Error al cargar los vocabularios guardados",
+    "failedToRemoveVocabulary": "Error al eliminar el vocabulario",
+    "failedToDeletePyramid": "Error al eliminar la pirámide. Por favor, inténtalo de nuevo."
+  },
+  "userProfile": {
+    "level": "Nivel",
+    "progress": "Progreso",
+    "stats": "Estadísticas",
+    "achievements": "Logros"
+  },
+  "leaderboard": {
+    "you": "Tú"
+  },
+  "progress": {
+    "remained": "restante",
+    "weekDays": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mié",
+      "thu": "Jue",
+      "fri": "Vie",
+      "sat": "Sáb",
+      "sun": "Dom"
+    },
+    "noData": {
+      "title": "Sin Datos de Progreso",
+      "subtitle": "¡Comienza a aprender para ver tu progreso semanal aquí!"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "theme": "Tema",
+    "notifications": "Notificaciones",
+    "sound": "Sonido",
+    "account": "Cuenta",
+    "support": "Soporte",
+    "items": {
+      "preferences": "Preferencias",
+      "profile": "Perfil",
+      "notifications": "Notificaciones",
+      "helpCenter": "Centro de Ayuda",
+      "feedback": "Comentarios",
+      "logout": "Cerrar sesión"
+    },
+    "version": "Versión"
+  },
+  "logout": {
+    "confirmTitle": "Confirmar Cierre de Sesión",
+    "confirmMessage": "¿Estás seguro de que quieres cerrar sesión de tu cuenta?",
+    "confirmButton": "Cerrar sesión",
+    "cancelButton": "Cancelar"
+  },
+  "preferences": {
+    "title": "Preferencias",
+    "vibrationFeedback": "Vibración",
+    "soundEffects": "Efectos de sonido",
+    "darkTheme": "Tema oscuro",
+    "interfaceLanguage": "Idioma de interfaz"
+  },
+  "profile": {
+    "title": "Perfil",
+    "name": "Nombre",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "email": "Correo electrónico",
+    "saveChanges": "Guardar Cambios",
+    "updateSuccess": {
+      "title": "Éxito",
+      "message": "Tu perfil ha sido actualizado exitosamente"
+    },
+    "deleteAccount": {
+      "button": "Eliminar mi cuenta",
+      "title": "Eliminar cuenta",
+      "confirmMessage": "¿Estás seguro de que quieres eliminar tu cuenta? Esta acción no se puede deshacer.",
+      "confirm": "Eliminar",
+      "error": "Error",
+      "errorNoId": "ID de usuario no encontrado. Por favor, inténtalo de nuevo.",
+      "errorMessage": "Error al eliminar la cuenta. Por favor, inténtalo más tarde.",
+      "success": "Éxito",
+      "successMessage": "Tu cuenta ha sido eliminada exitosamente. Serás redirigido a la página de inicio de sesión."
+    },
+    "changePassword": {
+      "button": "Cambiar Contraseña",
+      "title": "Contraseña",
+      "oldPassword": "Contraseña Anterior",
+      "newPassword": "Nueva Contraseña",
+      "confirmPassword": "Confirmar Contraseña",
+      "oldPasswordPlaceholder": "Ingresa tu contraseña anterior",
+      "newPasswordPlaceholder": "Ingresa tu nueva contraseña",
+      "confirmPasswordPlaceholder": "Ingresa tu nueva contraseña nuevamente",
+      "success": {
+        "title": "Éxito",
+        "message": "Tu contraseña ha sido cambiada exitosamente"
+      },
+      "error": {
+        "title": "Error",
+        "oldPasswordIncorrect": "La contraseña anterior es incorrecta",
+        "passwordsDontMatch": "Las nuevas contraseñas no coinciden",
+        "requirements": "Tu contraseña debe contener ",
+        "default": "Se produjo un error. Por favor, inténtalo de nuevo.",
+        "userNotFound": "Usuario no encontrado. Por favor, inicia sesión nuevamente.",
+        "sessionExpired": "Tu sesión ha expirado. Por favor, inicia sesión nuevamente."
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "announcements": "Anuncios",
+    "reminders": "Recordatorios"
+  },
+  "help": {
+    "title": "Centro de Ayuda",
+    "comingSoon": "Próximamente..."
+  },
+  "feedback": {
+    "title": "Comentarios",
+    "comingSoon": "Próximamente..."
+  },
+  "offline": {
+    "title": "No hay conexión a Internet",
+    "description": "Verifica tu conexión a Internet e inténtalo de nuevo.",
+    "retryButton": "Reintentar"
+  },
+  "languageSelection": {
+    "chooseLanguage": "Seleccionar Idioma"
+  },
+  "welcome": {
+    "title": "Tu mejor tutor para aprender idiomas",
+    "startLearning": "Empezar a Aprender"
+  }
+}

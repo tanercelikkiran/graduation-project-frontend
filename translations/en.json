@@ -1,0 +1,503 @@
+{
+  "common": {
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "edit": "Edit",
+    "next": "Next",
+    "back": "Back",
+    "previous": "Previous",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "warning": "Warning",
+    "continue": "Continue",
+    "complete": "Complete",
+    "loading": "Loading...",
+    "finish": "Finish",
+    "or": "or",
+    "of": "of",
+    "search": "Search",
+    "noSearchResults": "No search results found",
+    "activeFilters": "Active Filters",
+    "clearAll": "Clear All",
+    "languageCodes": {
+      "English": "English",
+      "Spanish": "Spanish",
+      "Turkish": "Turkish"
+    },
+    "errors": {
+      "inappropriateContent": "Content contains inappropriate material for educational purposes. Please revise your input.",
+      "contentValidationFailed": "Unable to validate content at this time. Please try again later.",
+      "generalError": "An unexpected error occurred. Please try again."
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "username": "Username",
+    "createAccount": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account yet?",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "continueWithGoogle": "Continue with Google",
+    "emailError": "Please enter a valid email address",
+    "emailRequired": "Please enter an email address",
+    "passwordRequired": "Please enter a password",
+    "loginContinue": "Log in and continue your learning",
+    "signupContinue": "Sign up and start your learning",
+    "terms": "By joining, I declare that I have read and accept the Terms and Privacy Policy",
+    "createUsername": {
+      "title": "Create your username",
+      "label": "Username",
+      "placeholder": "Enter your username",
+      "error": "Please enter a username",
+      "description": "Create a unique username that will be displayed to other users"
+    },
+    "createPassword": {
+      "title": "Create your password",
+      "label": "Password",
+      "placeholder": "Enter your password",
+      "error": "Please enter a password",
+      "loading": "Loading...",
+      "requirements": {
+        "base": "Your password must contain:",
+        "length": "at least 8 characters",
+        "uppercase": "at least one uppercase letter",
+        "lowercase": "at least one lowercase letter",
+        "number": "at least one number",
+        "special": "at least one special character",
+        "full": "Your password must contain at least 8 characters, 1 uppercase, 1 lowercase, 1 number, and 1 special character."
+      },
+      "registrationFailed": "Registration failed. Please try again.",
+      "registrationError": "An error occurred while registering. Please try again."
+    }
+  },
+  "userKnowledge": {
+    "question": "Do you know {{language}}?",
+    "dontKnow": "I don't know {{language}}",
+    "knowSome": "I know some {{language}}",
+    "authRequired": "Authentication required. Please try logging in again.",
+    "sessionExpired": "Your session has expired. Please log in again.",
+    "updateError": "Failed to update level preference.",
+    "generalError": "An error occurred. Please try again."
+  },
+  "userLevel": {
+    "title": "Do you already know your level?",
+    "selectLevel": "Select your level",
+    "selectBeginner": "Select as beginner",
+    "updateError": "An error occurred while updating your level. Please try again.",
+    "updateErrorTitle": "Update Error",
+    "levels": {
+      "a1": "A1 - Beginning",
+      "a2": "A2 - Elementary",
+      "b1": "B1 - Intermediate",
+      "b2": "B2 - Upper intermediate",
+      "c1": "C1 - Advanced"
+    }
+  },
+  "userPurpose": {
+    "title": "Why are you studying {{language}}?",
+    "customTitle": "Describe your purpose as you wish",
+    "purposes": {
+      "generalKnowledge": "General Knowledge",
+      "science": "Science & Technology",
+      "arts": "Arts & Culture",
+      "history": "History & Geography",
+      "cooking": "Food & Cooking",
+      "business": "Business & Professional",
+      "news": "News & Current Events",
+      "health": "Medical & Health",
+      "travel": "Travel & Tourism",
+      "music": "Music & Entertainment",
+      "sports": "Sports & Fitness",
+      "technology": "Technology & Computing",
+      "philosophy": "Philosophy & Religion",
+      "environment": "Environment & Nature",
+      "literature": "Literature & Reading",
+      "socialMedia": "Social Media & Communication"
+    },
+    "customPlaceholder": "I want to learn English because I am planning to travel to the United States next year and I want to be able to communicate with the locals.",
+    "info": "You can change your purpose at any time from the settings menu.",
+    "confirm": "Confirm",
+    "errors": {
+      "authRequired": "Authentication required",
+      "updateFailed": "Failed to update learning purpose. Please try again."
+    }
+  },
+  "start": {
+    "title": "You're all set!",
+    "subtitle": "Let's start studying!",
+    "button": "Get Started"
+  },
+  "chooseLanguage": {
+    "title": "Choose the language you want to learn",
+    "languages": {
+      "english": "English",
+      "spanish": "Spanish",
+      "turkish": "Turkish"
+    },
+    "errors": {
+      "authRequired": "Authentication required. Please try logging in again.",
+      "sessionExpired": "Your session has expired. Please log in again.",
+      "updateFailed": "Failed to update language preference.",
+      "generalError": "An error occurred. Please try again."
+    }
+  },
+  "home": {
+    "title": "Home",
+    "todaysExercise": "Today's Exercise",
+    "weeklyGoalAndLeaderboard": "Weekly Goal & Leaderboard",
+    "weeklyProgress": "Weekly Progress",
+    "modules": {
+      "pyramid": "Pyramid",
+      "vocabulary": "Vocabulary",
+      "writing": "Writing",
+      "email": "Email"
+    }
+  },
+  "modules": {
+    "pyramid": {
+      "title": "Pyramid",
+      "stats": {
+        "time": "Time",
+        "sentences": "Sentences",
+        "successRate": "Success Rate"
+      },
+      "loading": "Creating the sentence...",
+      "creatingOptions": "Generating options...",
+      "previewReady": "Ready to continue",
+      "errors": {
+        "createFailed": "Failed to create pyramid. Please try again.",
+        "loginRequired": "Please login to continue",
+        "loadingFailed": "Failed to load data"
+      },
+      "savedSentences": "Your saved sentences",
+      "noSavedSentences": "You don't have any saved sentences yet",
+      "noPyramids": "You don't have any pyramids yet",
+      "createFirstPyramid": "Create your first pyramid to get started!",
+      "filterByType": "Filter by type",
+      "originalSentence": "Original sentence",
+      "createTitle": "Let's create a pyramid!",
+      "createWithAI": "Let AI create the first sentence",
+      "enterSentence": "Enter the first sentence",
+      "types": {
+        "expand": "expand",
+        "replace": "replace",
+        "shrink": "shrink",
+        "paraphrase": "paraphrase"
+      },
+      "buttons": {
+        "statistics": "Statistics",
+        "sentences": "Sentences",
+        "delete": "Delete"
+      },
+      "delete": {
+        "title": "Delete Pyramid",
+        "message": "Are you sure you want to delete this pyramid? This action cannot be undone."
+      },
+      "quit": {
+        "title": "Quit Pyramid",
+        "message": "Are you sure you want to quit this pyramid session? Your progress will be lost.",
+        "confirm": "Quit"
+      },
+      "result": {
+        "congratulations": "Congratulations!",
+        "description": "You have completed the pyramid exercise",
+        "backToModules": "Return to the main page"
+      }
+    },
+    "vocabulary": {
+      "title": "Vocabulary",
+      "stats": {
+        "totalWords": "Total Words",
+        "newWords": "New Words",
+        "reviewWords": "To Review",
+        "time": "Time",
+        "vocabularies": "Vocabularies",
+        "successRate": "Success Rate"
+      },
+      "tabs": {
+        "popular": "Popular Lists",
+        "your": "Your Lists"
+      },
+      "saved": "Your saved vocabularies",
+      "savedVocabularies": "Saved Vocabularies",
+      "noSavedVocabularies": "You don't have any saved vocabularies yet",
+      "noPopularVocabularies": "No popular vocabulary lists available",
+      "noPopularVocabulariesSubtext": "Popular lists will appear here when they match your language settings",
+      "noYourVocabularies": "You don't have any vocabulary lists yet",
+      "noYourVocabulariesSubtext": "Create your first vocabulary list to get started!",
+      "relevantWords": "Relevant Words",
+      "buttons": {
+        "rework": "Rework",
+        "delete": "Delete",
+        "statistics": "Statistics"
+      },
+      "delete": {
+        "title": "Delete Vocabulary List",
+        "message": "Are you sure you want to delete this vocabulary list? This action cannot be undone."
+      },
+      "quit": {
+        "title": "Quit Quiz",
+        "message": "Are you sure you want to quit this vocabulary quiz? Your progress will be lost.",
+        "confirm": "Quit"
+      },
+      "create": {
+        "title": "Let's create vocabulary",
+        "aiCreate": "Let AI create the vocabulary list",
+        "chooseLevel": "Choose the level yourself",
+        "levels": {
+          "a1": "A1 - Beginning",
+          "a2": "A2 - Elementary",
+          "b1": "B1 - Intermediate",
+          "b2": "B2 - Upper intermediate",
+          "c1": "C1 - Advanced",
+          "c2": "C2 - Proficient"
+        }
+      },
+      "quiz": {
+        "creating": "Creating your vocabulary list...",
+        "creatingRework": "Creating your vocabulary list for rework...",
+        "completed": "Loading completed!",
+        "error": "Error loading word list:",
+        "question": {
+          "noRelevantWords": "All relevant words have been shown!",
+          "noMoreLetters": "All letters are already revealed!",
+          "wrongAnswer": "Wrong answer! Try again.",
+          "buttons": {
+            "getRelevant": "Hint",
+            "openLetter": "Letter",
+            "getEmoji": "Emoji",
+            "complete": "Complete",
+            "continue": "Continue"
+          }
+        },
+        "exitWarning": "Are you sure you want to exit? You will lose all progress and XP earned in this quiz.",
+        "result": {
+          "title": "Quiz Result",
+          "completed": "Quiz completed!",
+          "button": "Back to Home"
+        }
+      }
+    },
+    "writing": {
+      "title": "Writing",
+      "suggested": "Continue with the suggested question:",
+      "levels": "Levels",
+      "scenario": "Scenario",
+      "scenarios": "Scenarios",
+      "beginner": "Beginner",
+      "elementary": "Elementary",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "writeAnswer": "Write your answer here...",
+      "writeAnswerForScenario": "Write your answer for scenario {{scenario}}...",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "next": "Next Question",
+      "previous": "Previous",
+      "evaluationTitle": "Answer Evaluation",
+      "evaluationSubtitle": "Review your responses and feedback",
+      "yourAnswer": "Your Answer",
+      "noAnswer": "No answer provided",
+      "feedback": "Feedback",
+      "backToQuestions": "Back to Questions",
+      "unsavedChanges": "Unsaved Changes",
+      "unsavedChangesMessage": "You have unsaved changes. Are you sure you want to leave?",
+      "discardChanges": "Discard Changes",
+      "emptyAnswer": "Empty Answer",
+      "emptyAnswerMessage": "Please write an answer before submitting.",
+      "evaluationError": "Evaluation Error",
+      "evaluationErrorGeneric": "Failed to evaluate your writing. Please try again.",
+      "allQuestionsCompleted": "All questions completed!",
+      "questions": {
+        "remainedQuestions": "{{solved}} out of {{total}} questions answered",
+        "beginnerQuestions": "Beginner Questions",
+        "elementaryQuestions": "Elementary Questions",
+        "intermediateQuestions": "Intermediate Questions",
+        "advancedQuestions": "Advanced Questions",
+        "noQuestions": "No questions available for this level yet"
+      },
+      "evaluation": {
+        "loadingEvaluation": "Loading evaluation...",
+        "evaluationSubtitleAuth": "Review your responses and feedback",
+        "evaluationSubtitleGuest": "Review your responses and feedback (Guest mode)",
+        "overallScore": "Overall Score",
+        "detailedScores": "Detailed Scores",
+        "content": "Content",
+        "organization": "Organization",
+        "language": "Language",
+        "totalScore": "Total Score",
+        "specificFeedback": "Specific Feedback",
+        "suggestion": "Suggestion",
+        "xpEarned": "XP Earned",
+        "xpFromEventSystem": "Experience points from the event system",
+        "whereToGo": "Where to go next?",
+        "chooseNextAction": "Choose your next action",
+        "writeAnother": "Write Another",
+        "viewHistory": "View history",
+        "backToWriting": "Back to Writing",
+        "error": "Error",
+        "errorParsingResults": "Failed to parse evaluation results",
+        "feedbackTypes": {
+          "Spelling": "Spelling",
+          "Grammar": "Grammar",
+          "Punctuation": "Punctuation",
+          "Style": "Style"
+        }
+      }
+    },
+    "email": {
+      "title": "Email",
+      "headers": {
+        "inbox": "Inbox",
+        "sent": "Sent",
+        "draft": "Draft"
+      },
+      "comingSoon": {
+        "title": "Coming soon...",
+        "description": "Stay tuned for updates!"
+      }
+    }
+  },
+  "errors": {
+    "title": "Error",
+    "loginRequired": "You need to be logged in to view saved vocabularies",
+    "failedToLoadVocabularies": "Failed to load saved vocabularies",
+    "failedToRemoveVocabulary": "Failed to remove vocabulary",
+    "failedToShuffleVocabulary": "Failed to shuffle vocabulary list",
+    "failedToDeletePyramid": "Failed to delete pyramid. Please try again."
+  },
+  "userProfile": {
+    "level": "Level",
+    "progress": "Progress",
+    "stats": "Statistics",
+    "achievements": "Achievements"
+  },
+  "leaderboard": {
+    "you": "You"
+  },
+  "progress": {
+    "remained": "remaining",
+    "weekDays": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "noData": {
+      "title": "No Progress Data",
+      "subtitle": "Start learning to see your weekly progress here!"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "sound": "Sound",
+    "account": "Account",
+    "support": "Support",
+    "items": {
+      "preferences": "Preferences",
+      "profile": "Profile",
+      "notifications": "Notifications",
+      "helpCenter": "Help Center",
+      "feedback": "Feedback",
+      "logout": "Log out"
+    },
+    "version": "Version"
+  },
+  "logout": {
+    "confirmTitle": "Confirm Logout",
+    "confirmMessage": "Are you sure you want to log out of your account?",
+    "confirmButton": "Log out",
+    "cancelButton": "Cancel"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "vibrationFeedback": "Vibration feedback",
+    "soundEffects": "Sound Effects",
+    "darkTheme": "Dark Theme",
+    "interfaceLanguage": "Interface Language"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "saveChanges": "Save Changes",
+    "updateSuccess": {
+      "title": "Success",
+      "message": "Your profile has been updated successfully"
+    },
+    "deleteAccount": {
+      "button": "Delete My Account",
+      "title": "Delete Account",
+      "confirmMessage": "Are you sure you want to delete your account? This action cannot be undone.",
+      "confirm": "Delete",
+      "error": "Error",
+      "errorNoId": "User ID not found. Please try again.",
+      "errorMessage": "Failed to delete account. Please try again later.",
+      "success": "Success",
+      "successMessage": "Your account has been deleted successfully. You will be redirected to the login page."
+    },
+    "changePassword": {
+      "button": "Change Password",
+      "title": "Password",
+      "oldPassword": "Old Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "oldPasswordPlaceholder": "Enter your old password",
+      "newPasswordPlaceholder": "Enter your new password",
+      "confirmPasswordPlaceholder": "Enter your new password again",
+      "success": {
+        "title": "Success",
+        "message": "Your password has been changed successfully"
+      },
+      "error": {
+        "title": "Error",
+        "oldPasswordIncorrect": "Old password is incorrect",
+        "passwordsDontMatch": "New passwords don't match",
+        "requirements": "Your password must contain ",
+        "default": "An error occurred. Please try again.",
+        "userNotFound": "User not found. Please try logging in again.",
+        "sessionExpired": "Your session has expired. Please log in again."
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "announcements": "Announcements",
+    "reminders": "Reminders"
+  },
+  "help": {
+    "title": "Help Center",
+    "comingSoon": "Coming soon..."
+  },
+  "feedback": {
+    "title": "Feedback",
+    "comingSoon": "Coming soon..."
+  },
+  "offline": {
+    "title": "There is no Internet connection",
+    "description": "Check your Internet connection and try again.",
+    "retryButton": "Retry"
+  },
+  "languageSelection": {
+    "chooseLanguage": "Select Language"
+  },
+  "welcome": {
+    "title": "Your best language learning tutor",
+    "startLearning": "Start Learning"
+  }
+}

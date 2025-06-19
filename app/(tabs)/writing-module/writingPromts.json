@@ -1,0 +1,11 @@
+{
+    "question": "How was your weekend?",
+    "scenarios": [
+      "Answer as if you are a very social person, having lots of meetings and one of your friends invited you to a concert.",
+      "If you are very busy, having multiple exams next day, one of the lessons you like but there is also a homework from a course that you hate.",
+      "Assume that you are an artist and describe your weekend from a creative perspective.",
+      "Write as if you are a detective solving a mystery during the weekend.",
+      "Imagine you are a traveler who visited a new place over the weekend."
+    ]
+  }
+  
